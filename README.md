@@ -7,6 +7,8 @@ Problem: you want to watch a YouTube video on your Mac, but it says Flash is req
 
 Solution: Ytqt
 
+<h1>[Download the .app] [2]</h1>
+
 Usage
 -----
 
@@ -27,3 +29,4 @@ Current limitations
 
 
 [1]: http://sveinbjorn.org/platypus
+[2]: http://www.timdoug.com/Ytqt.app.zip
