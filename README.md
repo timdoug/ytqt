@@ -1,7 +1,7 @@
 ytqt
 ====
 
-Problem: you want to watch a YouTube video, but it says Flash is required and you don't have it installed or enabled.
+Problem: you want to watch a YouTube video on your Mac, but it says Flash is required and you don't have it installed or enabled.
 
 Solution: ytqt
 
