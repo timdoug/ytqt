@@ -18,6 +18,11 @@ fi
 
 echo -n "Getting video URL from YouTube..."
 VID_URL="`$YOUTUBE_DL -g -f 38/37/22/18 $YT_URL`"
+if [[ $? != 0 ]];
+then
+    sleep 3
+    exit
+fi
 echo "done!"
 
 echo -n "Opening QuickTime..."
