@@ -2,7 +2,7 @@
 
 RES_PATH="`dirname $0`"
 YOUTUBE_DL="$RES_PATH/youtube-dl"
-GET_URL="$RES_PATH/get_url.txt"
+GET_URL="$RES_PATH/get_url.scpt"
 
 echo -n "Getting URL from Safari..."
 YT_URL="`osascript $GET_URL`"
