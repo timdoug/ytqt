@@ -7,7 +7,7 @@ Problem: you want to watch a YouTube video on your Mac, but it says Flash is req
 
 Solution: Ytqt
 
-<h1>[Download the .app] [2]</h1>
+[_**Download the .app**_](http://www.timdoug.com/Ytqt.app.zip)
 
 Usage
 -----
@@ -19,14 +19,10 @@ Usage
 How to build
 ------------
 
-1. Download [Platypus] [1] and install the command line tool from the Preferences dialog.
+1. Download [Platypus](http://sveinbjorn.org/platypus)  and install the command line tool from the Preferences dialog.
 2. `./make_app.sh`
 
 Current limitations
 -------------------
 
 * Only works with Safari
-
-
-[1]: http://sveinbjorn.org/platypus
-[2]: http://www.timdoug.com/Ytqt.app.zip
