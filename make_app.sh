@@ -6,6 +6,7 @@ rm -rf Ytqt.app
 -a Ytqt \
 -o 'Text Window' \
 -p /bin/bash \
+-i assets/ytqt.icns \
 -u timdoug \
 -V `cat VERSION` \
 -I com.timdoug.ytqt \
