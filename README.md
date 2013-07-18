@@ -1,9 +1,11 @@
-ytqt
+Ytqt
 ====
+
+![Ytqt screenshot](/assets/ytqt.png?raw=true)
 
 Problem: you want to watch a YouTube video on your Mac, but it says Flash is required and you don't have it installed or enabled.
 
-Solution: ytqt
+Solution: Ytqt
 
 Usage
 -----
