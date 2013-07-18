@@ -1,8 +1,11 @@
 #!/bin/bash
 
 RES_PATH="`dirname $0`"
+VERSION=`cat "$RES_PATH/VERSION"`
 YOUTUBE_DL="$RES_PATH/youtube-dl"
 GET_URL="$RES_PATH/get_url.scpt"
+
+echo "     Ytqt $VERSION"
 
 echo -n "Getting URL from Safari..."
 YT_URL="`osascript $GET_URL`"

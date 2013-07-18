@@ -13,6 +13,7 @@ rm -rf Ytqt.app
 -n 'Helvetica 18' \
 -f get_url.scpt \
 -f contrib/youtube-dl \
+-f VERSION \
 -l \
 ytqt.sh \
 Ytqt.app
