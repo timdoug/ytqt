@@ -8,8 +8,8 @@ import subprocess
 
 from bs4 import BeautifulSoup
 
-youtube_dl_dir = tempfile.mkdtemp()
-youtube_dl_path = youtube_dl_dir + '/youtube-dl'
+temp_dir = tempfile.mkdtemp()
+youtube_dl_path = temp_dir + '/youtube-dl'
 
 print 'Getting latest youtube-dl version...'
 soup = BeautifulSoup(urllib2.urlopen('http://rg3.github.io/youtube-dl/download.html').read())
@@ -42,4 +42,4 @@ subprocess.Popen(' '.join([
     'Ytqt.app',
 ]), shell=True).communicate()
 
-shutil.rmtree(youtube_dl_dir)
+shutil.rmtree(temp_dir)
