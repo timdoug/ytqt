@@ -20,7 +20,8 @@ How to build
 ------------
 
 1. Download [Platypus](http://sveinbjorn.org/platypus)  and install the command line tool from the Preferences dialog.
-1. `./make_app.sh`
+1. Install BeautifulSoup4: `sudo easy_install beautifulsoup4`
+1. `./make_app.py`
 
 Current limitations
 -------------------
