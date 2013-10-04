@@ -13,7 +13,7 @@ version_path = temp_dir + '/VERSION'
 
 print 'Downloading youtube-dl...'
 with open(youtube_dl_path, 'w') as f:
-    f.write(urllib2.urlopen('http://youtube-dl.org/latest/youtube-dl').read())
+    f.write(urllib2.urlopen('https://yt-dl.org/latest/youtube-dl').read())
 os.chmod(youtube_dl_path, 0755)
 
 version = datetime.datetime.now().strftime('%Y.%m.%d.%H.%M')
